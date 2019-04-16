@@ -16,7 +16,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://github.com/yoonsoi/movie_app",
+  "homepage": "http://yoonsoi.github.io/movie_app",
   "eslintConfig": {
     "extends": "react-app"
   },
