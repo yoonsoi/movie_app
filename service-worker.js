@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/yoonsoi/movie_app/precache-manifest.887cd9f0fc979b85311bf8cb42d2f5d2.js"
+  "/movie_app/precache-manifest.faa9745e84af1483a6238fb87128016c.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/yoonsoi/movie_app/index.html", {
+workbox.routing.registerNavigationRoute("/movie_app/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
